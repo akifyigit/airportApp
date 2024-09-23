@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/25a97043-1769-4297-a073-78cb7db4f309)# Flight Booking Application
+# Flight Booking Application
 
 ## Project Overview
 This project is a flight booking application built with React and Node.js. It allows users to search and book flights while managing flight data through a backend API. 
