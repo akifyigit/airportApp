@@ -70,7 +70,7 @@ const FlightCard = ({
   };
 
   return (
-    <div className="bg-sky-lightest p-4 rounded-lg shadow-lg flex flex-col mb-4 border border-gray-200">
+    <div className="bg-sky-lightest p-4 rounded-lg shadow-lg flex flex-col mb-4  border-gray-200 drop-shadow-md">
       {/* Top Section: Departure, Plane Icon, Arrival */}
 
       <div className="flex justify-between items-center ">
@@ -89,7 +89,7 @@ const FlightCard = ({
           ></i>
           <div className="mt-4 font-semibold">Airline Code: </div>
           <div>{airlineCode}</div>
-          <div className="mt-4 font-medium"> Flight Number: </div>
+          <div className="mt-4 font-semibold"> Flight Number: </div>
           <div>{flightNumber}</div>
         </div>
 
@@ -112,7 +112,7 @@ const FlightCard = ({
           {isBookable && (
             <button
               onClick={handleButtonClick}
-              className="bg-primary-light text-white p-2 rounded-lg hover:bg-blue-600 transition duration-200"
+              className="bg-primary-light text-white p-2 rounded-lg hover:bg-blue-600 transition duration-200 font-semibold"
             >
               Book Flight
             </button>

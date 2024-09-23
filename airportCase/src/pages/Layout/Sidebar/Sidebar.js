@@ -22,7 +22,7 @@ const subItems = [
 const Sidebar = () => {
   return (
     <div className="sticky z-50 top-0 hidden md:block bottom-0 lg:left-0 p-2 w-60 text-center h-96vh ml-2 bg-primary-lightest rounded-lg">
-      <div className="relative mt-6"></div>
+      <div className="relative mt-14"></div>
       {subItems.map((item) =>
         !item.isCustomElement ? (
           <SideItem

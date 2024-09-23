@@ -87,16 +87,16 @@ const Flights = () => {
               flightsData={flightsData}
               isBookable={true}
             />
-            <div className="flex justify-between m-4">
+            <div className="flex justify-between my-4">
               <button
-                className="bg-primary text-white p-2 rounded"
+                className="bg-primary text-white p-2 rounded  w-20"
                 disabled={currentPage === 1}
                 onClick={handlePreviousPage}
               >
                 Previous
               </button>
               <button
-                className="bg-primary text-white p-2 rounded"
+                className="bg-primary text-white p-2 rounded  w-20"
                 onClick={handleNextPage}
               >
                 Next

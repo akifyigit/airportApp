@@ -24,13 +24,11 @@ const FlightSearchForm = ({
   };
   return (
     <div>
-      <div className="bg-sky-lightest p-6 rounded-lg shadow-md mb-4">
+      <div className="bg-sky-lightest p-6 rounded-lg shadow-md mb-4 mt-4">
         {' '}
-        {isBookable && (
-          <h2 className="text-title3  font-bold text-center mb-4">
-            BOOK YOUR FLIGHT
-          </h2>
-        )}
+        <h2 className="text-title3 font-semibold text-center mb-4">
+          {isBookable ? 'Book your flight' : 'Search your booked flights'}
+        </h2>
         <form className="flex justify-center gap-x-8">
           <div className="flex flex-1 w-1/2 items-center">
             <label className="font-bold mr-4">Destination:</label>
@@ -38,7 +36,7 @@ const FlightSearchForm = ({
               placeholder={
                 <i className="fa-solid fa-plane-departure text-primary"></i>
               }
-              className="w-full"
+              className="w-60"
               showDefault={true}
               inputValue={airport}
               onChange={setAirport}
@@ -49,10 +47,10 @@ const FlightSearchForm = ({
             />
           </div>
           <div className="flex flex-1 w-1/2 items-center">
-            <label className="font-bold mr-4">Flight Date:</label>
+            <label className="font-bold">Flight Date:</label>
             <input
               id="flightDate"
-              className="border border-sky-light rounded w-full px-4 py-2"
+              className="border border-sky-light rounded w-full px-4 py-2 "
               type="date"
               name="flightDate"
               max={new Date().toISOString().split('T')[0]}

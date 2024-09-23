@@ -21,7 +21,7 @@ const FlightPromotions = () => {
           className="rounded-lg mb-2 w-76 h-60"
         />
         <div className="absolute bottom-4 left-4 text-white mb-4 ml-1 bg-ink-gray">
-          <i className="fa-solid fa-2xl fa-car"></i>{' '}
+          <i className="fa-solid fa-2xl fa-car mb-4"></i>{' '}
           <h3 className="font- text-center text-title2 text-white">
             Car Rentals
           </h3>
@@ -41,7 +41,7 @@ const FlightPromotions = () => {
           className="rounded-lg mb-2 w-76 h-60"
         />
         <div className="absolute bottom-4 left-4 text-white mb-4 ml-1 bg-ink-gray">
-          <i className="fa-solid fa-2xl fa-hotel"></i>{' '}
+          <i className="fa-solid fa-2xl fa-hotel mb-4"></i>{' '}
           <h3 className="font- text-center text-title2 text-white">Hotels</h3>
         </div>
       </div>
@@ -59,7 +59,7 @@ const FlightPromotions = () => {
           className="rounded-lg mb-2 w-76 h-60"
         />
         <div className="absolute bottom-4 left-4 text-white mb-4 ml-1 bg-ink-gray">
-          <i className="fa fa-2xl fa-suitcase " aria-hidden="true"></i>
+          <i className="fa fa-2xl fa-suitcase mb-4 "></i>
           <h3 className="font- text-center text-title2 text-white ">
             Travel Packages
           </h3>
