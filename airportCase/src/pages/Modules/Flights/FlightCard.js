@@ -38,7 +38,7 @@ const FlightCard = ({
   isBookable,
 }) => {
   console.log(arrival);
-  const [createBooking] = useBookFlightsMutation(); // Ensure you have the mutation imported
+  const [createBooking] = useBookFlightsMutation(); 
   const [showModal, setShowModal] = useState(false);
   const [modalText, setModalText] = useState('');
   const handleButtonClick = () => {

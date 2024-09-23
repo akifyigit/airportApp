@@ -10,7 +10,7 @@ import { useGetLocalFlightsQuery } from 'redux/slices/flights/flightsLocalApi';
 
 import FlightCard from './FlightCard';
 import FlightPromotions from './FlightPromotions';
-import FlightSearchForm from './FlightSearchForm'; // New component import
+import FlightSearchForm from './FlightSearchForm'; 
 import airportsData from '../../../airportsData.json';
 
 const Flights = () => {
