@@ -1,4 +1,4 @@
-# Flight Booking Application
+![image](https://github.com/user-attachments/assets/25a97043-1769-4297-a073-78cb7db4f309)# Flight Booking Application
 
 ## Project Overview
 This project is a flight booking application built with React and Node.js. It allows users to search and book flights while managing flight data through a backend API. 
@@ -42,6 +42,10 @@ Open your browser and go to http://localhost:3000 to see the application in acti
 
 
 Project Images:
+
+![image](https://github.com/user-attachments/assets/f676ffa9-ad4c-419f-ba39-aa42d2954e3a)
+![image](https://github.com/user-attachments/assets/850f3d52-2438-45ab-87fa-a3d63b0b39ef)
+![image](https://github.com/user-attachments/assets/2a9b4498-7c1b-4f38-b615-e1db7302525c)
 
 
 
